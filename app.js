@@ -3,6 +3,8 @@ const javob = document.getElementById("javob");
 
 forma.addEventListener("submit", function (e) {
   e.preventDefault();
-  alert("Arizangiz qabul qilindi")
-  forma.reset()
+  javob.textContent = "Ariza qabul qilindi";
+  javob.style.color = "green";
+  forma.reset();
 });
+
