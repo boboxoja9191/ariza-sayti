@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:blue;
+}
+  form {
+    background: darkcyan;
+    font-size: 15px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    width: 300px;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid lime;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  #javob {
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+  }
+
+  img{
+      padding: 30px;
+      margin: 30px;
+      width: 350px;
+      height: 350px;
+      box-sizing: border-box;
+  }
